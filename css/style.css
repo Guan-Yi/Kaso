@@ -137,31 +137,35 @@ span.menu {
 }
 .header-text1 {
   text-align:left;
-  margin:1em 3em 3.6em 3em;
+  margin:1em 3em 1em 3em;
 }
 .header-text2 {
   text-align:left;
-  margin:1em 3em 5.4em 3em;
+  margin:1em 3em 1em 3em;
 }
 .header-text3 {
   text-align:left;
-  margin:1em 3em 0em 3em;
+  margin:1em 3em 1em 3em;
 }
 .header-img1 {
   background: #46797F;
-    padding: 1.5em 2em;
+  padding: 1.5em 2em;
+  height: 32em;
 }
 .header-img2 {
   background:#46797F;
   padding: 1.5em 2em;
+  height: 32em;
 }
 .header-img3 {
   background:#46797F;
   padding: 1.5em 2em;
+  height: 32em;
 }
 .header-img4 {
   background:#46797F;
   padding: 1.5em 2em;
+  height: 32em;
 }
 .header-grid img {
   margin: 0 auto;
