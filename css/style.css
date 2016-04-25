@@ -195,7 +195,6 @@ span.menu {
 }
 .about-section {
   padding: 15em 0 4em;
-  background:#eee;
 }
 .about-img img {
   width: 100%;
@@ -313,6 +312,7 @@ transition: all 0.7s ease;
 }
 .news-section{
 padding:4em 0;
+background:#eee;
 }
 .news-section h3 {
   font-size: 2.5em;
@@ -358,6 +358,41 @@ a.button {
   text-decoration: none;
   text-transform: capitalize;
 }
+
+/* -----access------ */
+
+.access-section { 
+	padding:4em 0;
+}
+.access-section h3 { 
+  position:relative;
+  display:block;
+  font-size: 2.5em;
+  text-transform: capitalize;
+  color: #000;
+    margin: 0 17px;
+	font-family: 'Josefin Sans', sans-serif;
+	  font-weight: 600;
+} 
+.access-grids { 
+  margin-top:3em;
+  width:60%;
+} 
+
+.access-grids span{
+	font-size: 1em;
+  	padding-left:15px;
+  	color: #555;
+  	line-height: 1.8em;
+}
+
+.access-grid {
+	min-height:1px;
+	padding-right:15px;
+	padding-left:15px;
+	margin-top:15px;
+}
+
 /* Shutter In Vertical */
 .hvr-shutter-in-vertical {
   display: inline-block;
@@ -1784,6 +1819,9 @@ a.b-home {
   padding: 0.7em 1.5em;
   font-size: 1em;
 }
+
+
+
 }
 @media only screen and (max-width:320px){
 .logo a {
@@ -1996,3 +2034,4 @@ a.b-home {
   width: 100%;
   padding: 0.5em;
 }
+
