@@ -148,22 +148,22 @@ span.menu {
   margin:1em 3em 1em 3em;
 }
 .header-img1 {
-  background: #46797F;
+  background: rgb(48,167,104);
   padding: 1.5em 2em;
   height: 32em;
 }
 .header-img2 {
-  background:#46797F;
+  background:rgb(48,167,104);
   padding: 1.5em 2em;
   height: 32em;
 }
 .header-img3 {
-  background:#46797F;
+  background:rgb(48,167,104);
   padding: 1.5em 2em;
   height: 32em;
 }
 .header-img4 {
-  background:#46797F;
+  background:rgb(48,167,104);
   padding: 1.5em 2em;
   height: 32em;
 }
@@ -195,6 +195,7 @@ span.menu {
 }
 .about-section {
   padding: 15em 0 4em;
+  background:#eee;
 }
 .about-img img {
   width: 100%;
@@ -266,7 +267,7 @@ span.menu {
 }
 .access-section {
   padding: 4em 0;
-  background:#fff;
+  background:#eee;
  }
 .access-section h3 {
   font-size: 2.5em;
@@ -312,7 +313,6 @@ transition: all 0.7s ease;
 }
 .news-section{
 padding:4em 0;
-background:#eee;
 }
 .news-section h3 {
   font-size: 2.5em;
@@ -376,7 +376,7 @@ a.button {
 } 
 .access-grids { 
   margin-top:3em;
-  width:60%;
+  width:100%;
 } 
 
 .access-grids span{
@@ -390,7 +390,12 @@ a.button {
 	min-height:1px;
 	padding-right:15px;
 	padding-left:15px;
-	margin-top:15px;
+	margin-top:30px;
+}
+
+.access-grid span img {
+	width:1em;
+	height:1em;
 }
 
 /* Shutter In Vertical */
@@ -418,7 +423,7 @@ a.button {
   bottom: 0;
   left: 0;
   right: 0;
-  background:#46797F;
+  background:rgb(48,167,104);
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
   -webkit-transform-origin: 50%;
@@ -548,7 +553,6 @@ color:#f2af00;
 .footer-section {
   padding: 4em 0;
   text-align: center;
-  background:#eee;
 }
 .social-icons i {
   width: 55px;
