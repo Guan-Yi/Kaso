@@ -42,7 +42,7 @@ body{
 }
 .header-top {
   margin-top: 1em;
-  background: rgb(63,120,129);
+  background: rgba(0, 0, 0, 0.41);
 }
 .logo {
   border-top: 5px solid#fff;
